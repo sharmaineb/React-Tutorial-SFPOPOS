@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-// import POPOSDetails from './POPOSDetails';
+import POPOSDetails from './POPOSDetails/POPOSDetails';
 
 import './App.css';
 import Title from './Title/Title';
