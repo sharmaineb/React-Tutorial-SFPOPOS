@@ -1,18 +1,27 @@
-.POPOSSpace > img {
+.POPOSSpace {
     width: 100%;
-    height: auto;
+    text-align: center;
     position: relative;
+  }
+  
+.POPOSSpace > img {
+  width: 100%;
+  height: auto;
+}
+
+.POPOSSpace > .hours {
+  font-family:'Courier New', Courier, monospace;
 }
 
 .POPOSSpace .POPOSSpace-title {
   text-decoration: none;
-  color: #000;
+  color: #000000;
 }
 
 .POPOSSpace h1 {
   display: block;
 	position: absolute;
-	left: 0;
+	left: 3%;
 	top: 0;
 	margin: 0;
 	font-weight: lighter;
@@ -23,7 +32,7 @@
 
 .POPOSSpace .POPOSSpace-info {
 	position: absolute;
-	right: 0;
+	right: 3%;
 	bottom: 0;
 	text-align: right;
 }
