@@ -14,6 +14,13 @@
 	}
 }
 
+/* smaller screens and tbalets */
+@media only screen and (max-width: 960px) {
+    .POPOSList {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
 .POPOSList form {
 	display: flex;
 	align-items: flex-start;

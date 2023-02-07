@@ -4,6 +4,7 @@ import data from '../../sfpopos-data.js'
 import './POPOSDetails.css';
 import POPOSFeatureList from '../POPOSFeatureList.js';
 
+
 function POPOSDetails(props) {
   const params = useParams()
   const { id } = params // Location index
