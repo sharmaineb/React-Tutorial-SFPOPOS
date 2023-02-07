@@ -2,7 +2,7 @@ import logo from './logo.svg'
 import './POPOSSpace.css';
 
 function POPOSSpace(props) {
-    const { name, image, address } = props
+    const { name, image, address, hours } = props
     return (
       <div>
         <img
@@ -13,6 +13,7 @@ function POPOSSpace(props) {
         />
         <h1>{name}</h1>
         <div>{address}</div>
+        <div>{hours}</div>
       </div>
     )
 }
