@@ -46,5 +46,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Screenshots of Wireframes:
-<img src="https://github.com/sharmaineb/React-Tutorial-SFPOPOS/blob/main/wireframes/desktop.png" align="center">
+Desktop Wireframes:
+<img src="https://github.com/sharmaineb/React-Tutorial-SFPOPOS/blob/main/wireframes/desktop.png" align="center" alt="wireframe">
+
+Mobile Wireframes:
+<img src="https://github.com/sharmaineb/React-Tutorial-SFPOPOS/blob/main/wireframes/mobile.png" align="center" alt="wireframe">
