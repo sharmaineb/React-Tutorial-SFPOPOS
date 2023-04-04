@@ -40,7 +40,7 @@
     * Copyright Notice
 
 
-Wireframe Figma Link: [https://www.figma.com/file/jgqX3FxD3lhXU7awj9behg/SFPOPOS-Wireframes?node-id=0%3A1&t=WU9DAHVt9HrpYll8-1]
+[Wireframe Figma Link](https://www.figma.com/file/jgqX3FxD3lhXU7awj9behg/SFPOPOS-Wireframes?node-id=0%3A1&t=WU9DAHVt9HrpYll8-1)
 
 Desktop Wireframes:
 <img src="https://github.com/sharmaineb/React-Tutorial-SFPOPOS/blob/main/wireframes/desktop.png" align="center" alt="wireframe">
