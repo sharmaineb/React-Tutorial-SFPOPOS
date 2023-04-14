@@ -14,13 +14,6 @@
 	}
 }
 
-/* smaller screens and tbalets */
-@media only screen and (max-width: 960px) {
-    .POPOSList {
-      grid-template-columns: 1fr 1fr;
-    }
-}
-
 .POPOSList form {
 	display: flex;
 	align-items: flex-start;
@@ -42,4 +35,22 @@
 .POPOSList form button {
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.5em;
+}
+
+/* Desktop */
+@media only screen and (max-width: 850px) {
+    .POPOSList {
+      grid-template-columns: 1fr 1fr;
+	  max-width: 100%;
+	  justify-content: center;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 475px) {
+	.POPOSList {
+		grid-template-columns: 1fr;
+		max-width: 100%;
+		justify-content: center;
+	}
 }

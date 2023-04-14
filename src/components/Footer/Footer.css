@@ -10,3 +10,16 @@
     background-color: rgb(165,4,4);
     color: #f1f1f1;
 }
+
+/* Mobile */
+@media only screen and (max-device-width: 490px) {
+    .Footer > p {
+        padding: 0.5rem;
+
+    }
+}
+
+/* Desktop */
+@media only screen and (max-device-width: 600px) {
+    
+}
