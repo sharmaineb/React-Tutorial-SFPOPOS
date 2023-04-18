@@ -10,7 +10,7 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id]
 
   return (
-    <div className='POPOSDetails'>
+    <div className='POPOSDetails' role='region' aria-label='details for sfpopos'>
       <div className='POPOSDetails-image'>
         <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt={title} />
       </div>

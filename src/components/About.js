@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div>
+    <div role='region' aria-label='about sfpopos'>
       <h1>About SFPOPOS</h1>
       <p>POPOS are publicly accessible spaces in
         forms of plazas, terraces, atriums, small
