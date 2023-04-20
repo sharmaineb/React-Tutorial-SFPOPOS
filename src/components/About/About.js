@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div role='region' aria-label='about sfpopos'>
+    <article className='about' aria-label='about-sfpopos'>
       <h1>About SFPOPOS</h1>
       <p>POPOS are publicly accessible spaces in
         forms of plazas, terraces, atriums, small
@@ -10,7 +10,7 @@ function About() {
         and maintained by private developers. In San
         Francisco, POPOS mostly appear in the Downtown
         office district area.</p>
-    </div>
+    </article>
   )
 }
 

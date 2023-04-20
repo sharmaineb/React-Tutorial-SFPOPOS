@@ -24,7 +24,7 @@ function POPOSList() {
   })
 
   return (
-    <div className="POPOSList">
+    <article className="POPOSList" aria-label='list-of-sfpopos'>
 			<form>
 				<input
 					value={query}
@@ -34,7 +34,7 @@ function POPOSList() {
 				<button type="submit">Submit</button>
 			</form>
 			{spaces}
-    </div>
+    </article>
   )
   
 }
